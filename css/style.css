@@ -1,0 +1,28 @@
+     :root{
+      ---blanco: #ffffff;
+      ---oscuro: #212121;
+      ---primario:#4682b4;
+      ---secubdario: rgba(255, 193, 7,1);
+      ---gris: #757575;
+     }
+     
+     html{
+        font-size: 62.5%;
+      }
+      
+      body{
+        font-size: 16px;
+        font-family: "krub", sans-serif;
+      }
+      
+      .titulo{
+        text-align: center;
+        font-size: 4rem;
+        color: var(---primario);
+        /*font-family: "Times New Roman",'Times New Roman', Times, serif;*/
+      }
+
+      .titulo span{
+        font-size: 2rem;
+      } 
+
