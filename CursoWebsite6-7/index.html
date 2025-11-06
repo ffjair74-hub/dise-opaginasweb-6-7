@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desarrollo Web 6-7</title>
+    <link rel="preload" href="css/normalize.css">
+    <link href="css/normalize.css" rel="stylesheet">
     <link rel="preload" href="css/style.css" as="style">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Krub:wght@200;400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" 
 rel="stylesheet">
+
   </head>
 
   <body>
     <header>
-      <h1 class="titulo">Desarrollo de Aplicaciones Web: 
-        <span> website </span></h1>
+      <h1 class= "titulo">
+        Desarrollo de Aplicaciones Web: 
+        <span>website</span>
+      </h1>
     </header>
     
-    <nav>
+    <div class="nav-bg">
+    <nav class="navegacion-principal">
       <a></a>
       <a href="index.html">Inicio</a>
       <!--Simula un enlace-->
@@ -28,13 +34,15 @@ rel="stylesheet">
       <a href="nobita.html">nobita</a>
 
     </nav>
+    </div>
     
-    <img src="imagenes/fondo.jpg" />
-    <section>
+    <section class="hero">
+      <div class="contenido-hero">
       <p>Medina Barzola Erick Jair</p>
-      <img src="imagenes/icong.svg" />
-      <p>Guayaquil, Ecuador</p>
-      <a href="#">Contactar</a>
+      
+      <p>Guayaquil, Ecuador <img src="imagenes/icong.svg" /></p>
+      <a class="boton" href="#">Contactar</a>
+      </div>
     </section>
 
     <main>
@@ -60,7 +68,7 @@ rel="stylesheet">
       </section>
       <section>
         <h3>JavaScript</h3>
-         <img src="imagenes/java.svg" />
+         <img src="imagenes/javas2.svg" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet
           lacus in mauris efficitur, vel sollicitudin turpis varius. Integer
